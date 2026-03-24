@@ -1,0 +1,15 @@
+{
+  "name": "mandelbrot",
+  "version": "1.0.0",
+  "description": "Interactive Mandelbrot set explorer with smooth coloring, multiple palettes, and zoom-to-cursor.",
+  "author": "Bill Heyman <bill@heyman.ai> (https://billheyman.com)",
+  "license": "MIT",
+  "homepage": "https://zebiv.com/mandelbrot/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zebiv-code/mandelbrot/"
+  },
+  "scripts": {
+    "start": "npx serve web -l 3000"
+  }
+}

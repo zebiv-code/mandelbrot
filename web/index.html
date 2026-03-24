@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandelbrot — heyman.ai</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <canvas id="c"></canvas>
+    <div class="controls">
+        <div class="label">Iterations</div>
+        <input type="range" id="iters" min="50" max="2000" step="50" value="200">
+        <span id="iters-val">200</span>
+        <div class="label">Color Scheme</div>
+        <select id="palette">
+            <option value="classic">Classic</option>
+            <option value="fire">Fire</option>
+            <option value="ocean">Ocean</option>
+            <option value="grayscale">Grayscale</option>
+            <option value="psychedelic">Psychedelic</option>
+        </select>
+        <div class="btn-row">
+            <button id="reset">Reset View</button>
+            <button id="save">Save PNG</button>
+        </div>
+        <div class="info" id="coords"></div>
+        <div class="info">Scroll to zoom. Drag to pan. Click to center.</div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
